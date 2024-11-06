@@ -16,7 +16,7 @@ functions:
           method: any
           path: /{proxy+}
     environment:
-      #DATABASE: ''
-      #USERNAME: ''
-      #PASSWORD: Don't set this if you'll be commiting the file, instead use the AWS console or another method like Parameter Store
-      #HOST: ''
+      DATABASE: 'postgresql://postgres.cfbemsfwvjpykoqtfypl:HP3xOhy8D9sX1b3c@aws-0-us-west-1.pooler.supabase.com:6543/postgres'
+      USERNAME: ''
+      PASSWORD: HP3xOhy8D9sX1b3c
+      HOST: ''
