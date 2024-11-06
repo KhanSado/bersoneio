@@ -11,7 +11,7 @@
     "build": {
       "env": {
         "NODEJS_AWS_HANDLER_NAME": "handler",
-        "DATABASE_URL": "postgresql://postgres.cfbemsfwvjpykoqtfypl:HP3xOhy8D9sX1b3c@aws-0-us-west-1.pooler.supabase.com:6543/postgres"
+        "DATABASE_URL": "${env:DATABASE_URL}"
       }
     }
 }
